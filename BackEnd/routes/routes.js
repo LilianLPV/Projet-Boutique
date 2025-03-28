@@ -1,8 +1,9 @@
 
-
 const express = require("express");
 const router = express.Router();
 const controllers = require("../controllers/controllers");
+
+
 
 /*  
 
@@ -11,4 +12,4 @@ router.get("/sneakers", controllers.getSneakers);
 router.get("/sneakers/:id", controllers.getSneakersById);
 */
 
-module.exports = router;
+module.exports = router
