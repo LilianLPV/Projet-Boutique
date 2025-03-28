@@ -1,4 +1,10 @@
+
+/*
+
 const data = require('../data.json')
+
+
+EXEMPLE A PAS SUPPRIMER SVP 
 
 exports.getSneakers = (req, res) => {
     const sneakers = data.sneakers;
@@ -24,5 +30,4 @@ exports.getSneakersById = (req, res) => {
         sneaker
     });
     }
-
-    
+    */
