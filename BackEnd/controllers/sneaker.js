@@ -24,3 +24,5 @@ exports.getSneakersById = (req, res) => {
         sneaker
     });
     }
+
+    
