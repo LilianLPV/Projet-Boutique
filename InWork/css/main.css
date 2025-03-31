@@ -1,0 +1,350 @@
+* {
+    font-family: 'Minecraftia', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('fonts/Minecraftia.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/* ------- */
+/* NAVBAR */
+/* ----- */
+.navbar { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    z-index: 1000;
+    background-color: var(--main-gray);
+    border-bottom: 0.5rem solid #585659;
+    box-shadow: 0px 3px 0px var(--abs-black);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.navbar-inter {
+    margin-right: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+/* Conteneur des minecoins */
+.minecoins-case {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Boîte contenant les minecoins */
+.minecoins-box {
+    gap: .5rem;
+    height: 30px;
+    min-width: 8rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5E5E5E;
+    color: white;
+    font-weight: bold;
+    justify-content: flex-end;
+
+    /* Bordures internes */
+    border-top: 3px solid #464447;
+    border-bottom: 3px solid #B2B2B2;
+
+    /* Outline principal */
+    outline: 3px solid var(--abs-black);
+    box-sizing: border-box;
+}
+
+/* Conteneur de la search-box avec outline */
+.input-outline {
+    outline: 3px solid var(--abs-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Input de recherche */
+.search-box {
+    height: 30px;
+    width: 8rem;
+    background-color: #5E5E5E;
+    color: white;
+    font-weight: bold;
+    border: none; /* Supprime toute bordure par défaut */
+    border-top: 3px solid #464447;
+    border-bottom: 3px solid #B2B2B2;
+    outline: none; /* Désactive l'outline par défaut de l'input */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.search-box::placeholder {
+    color: #bbb;
+}
+
+/* Icônes de fin */
+.end-case {
+    height: 2.5rem;
+    width: auto;
+    margin-left: 0px;
+    image-rendering: pixelated;
+}
+
+.search-case {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Changement de couleur de la box et de l’input au survol */
+.search-case:hover .input-outline {
+    background-color: #43A01C;
+    outline: 3px solid #EAFFEA;
+}
+
+.minecoins-case:hover .minecoins-box {
+    border-top: 3px solid var(--invsible);
+    border-bottom: 3px solid var(--invsible);
+    background-color: #43A01C;
+    outline: 3px solid #EAFFEA;
+}
+
+.search-case:hover .search-box {
+    border-top: 3px solid var(--invsible);
+    border-bottom: 3px solid var(--invsible);
+    background-color: #43A01C;
+}
+
+.minecoins-icon {
+    height: 1.2rem;
+    width: auto;
+    image-rendering: pixelated;
+}
+
+
+
+
+
+/* -------- */
+/* SideBar */
+/* ------ */
+.sidebar {
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 5rem;
+    height: 100vh;
+    background-color: var(--sidebar-gray);
+    border-right: 4px solid var(--abs-black);
+    transition: width 0.3s ease;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sidebar-extend, .sidebar-inter {
+    display: flex;
+    align-items: center;
+    width: 12rem; /* On fixe la largeur totale pour éviter les à-coups */
+}
+
+.sidebar-case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+}
+
+.sidebar-icon {
+    width: 3.25rem; /* 65% de 5rem */
+    height: auto;
+    image-rendering: pixelated;
+}
+
+/* Avant le clic : les spans sont invisibles, mais on leur donne une largeur fixe pour éviter les à-coups */
+.sidebar-inter span {
+    display: flex;
+    align-items: center;
+    width: 7rem; /* Largeur prévue lors de l'ouverture */
+    height: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, padding-left 0.3s ease;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Lorsque la sidebar est ouverte */
+.sidebar.open {
+    width: 12rem; /* La sidebar s'agrandit */
+}
+
+/* Le texte devient visible avec un effet fluide */
+.sidebar.open .sidebar-inter span {
+    padding-right: 1rem;
+    opacity: 1;
+    padding-left: 1rem; /* Ajoute un petit espace une fois visible */
+}
+
+.sidebar-extend:hover, 
+.sidebar-inter:hover {
+    background-color: var(--sidebar-selected);
+    transition: background-color 0.1s ease;
+}
+
+
+
+
+.content {
+    margin-top: 4.6rem;
+    width: 100%;
+    display: flex;
+    height: auto;
+    min-height: calc(100vh - 4.6rem);
+}
+
+
+
+
+
+.scrollable {
+    margin-left: calc(5rem + 4px);
+    width: calc(100% - 5rem - 4px);
+    padding: .6rem;
+    gap: .6rem;
+    box-sizing: border-box; /* Assure que le padding est inclus dans la largeur/hauteur totale */
+    background-image: url("../img/background/background.gif");
+    background-attachment: fixed; /* Empêche le fond de défiler */
+    background-repeat: no-repeat; /* Empêche la répétition du fond */
+    background-size: cover; /* Fait en sorte que le fond couvre toute la zone */
+}
+
+.head-line {
+    display: flex;
+    gap: .6rem;
+    width: 100%; /* S'assure que .head-line occupe toute la largeur de son parent .scrollable */
+    overflow: hidden; /* Cache le contenu qui dépasse de la boîte */
+    box-sizing: border-box; /* Assure que le padding ne fait pas dépasser l'élément */
+    margin-bottom: .6rem;
+    align-items: stretch; /* Permet à .head-line de s'adapter à la hauteur de son contenu */
+}
+
+.main-content {
+    width: 60%;
+    overflow: hidden; /* Cache le contenu qui dépasse de la boîte */
+    box-sizing: border-box; /* Assure que le padding ne fait pas dépasser l'élément */
+    border: 4px solid var(--abs-black); /* Bordure noire initiale */
+    display: flex; /* Utilise flex pour que l'image prenne la place qu'elle mérite */
+}
+
+.main-content:hover {
+    border-color: white;
+}
+
+.main-content-img {
+    width: 100%; /* Remplit toute la largeur disponible */
+    height: auto; /* Garde la proportion de l'image */
+    object-fit: cover; /* Couvre l'espace sans déformer l'image */
+}
+
+.second-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crée 2 colonnes égales */
+    gap: .6rem; /* Espacement entre les images */
+    width: 40%;
+    height: auto; /* Hauteur dynamique pour s'adapter au contenu */
+}
+
+.second-content > div {
+    border: 4px solid var(--abs-black);
+    display: flex;
+    flex-direction: column; /* Organise les éléments en colonne */
+}
+
+.second-content > div:hover {
+    border-color: white;
+}
+
+.second-content-img {
+    width: 100%; /* Remplit toute la largeur disponible */
+    height: auto; /* Garde la proportion de l'image */
+    object-fit: cover; /* Couvre l'espace sans déformer l'image */
+    border-bottom: solid 4px var(--abs-black);
+}
+
+.second-content > div:hover .second-content-img {
+    border-bottom-color: white; /* Change la couleur de la bordure inférieure lors du survol */
+}
+
+.second-content-text {
+    color: white;
+    background-color: var(--content-background);
+    width: 100%; /* Le fond prend toute la largeur */
+    flex-grow: 1; /* Occupe tout l'espace restant en bas de l'image */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligne le texte en haut */
+    padding: 0.5rem; /* Espacement de 0.5rem autour du contenu */
+    box-sizing: border-box; /* Inclut les padding dans la largeur totale */
+}
+
+.second-content-text .undername {
+    display: flex;
+    justify-content: space-between; /* Exemple d'alignement */
+    margin-top: auto; /* Pousse l'élément au bas du conteneur */
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--text-price);
+}
+
+.price-icon {
+    width: 1.3rem;
+    height: 1.3rem;
+    image-rendering: pixelated;
+}
+
+
+
+
+
+
+.cursor {
+    cursor: pointer;
+}
+
+:root {
+    --invsible: #00000000;
+    --abs-black: #000000;
+    --main-gray: #C6C6C6;
+    --sidebar-gray: #313233;
+    --sidebar-selected: #48494A;
+    --content-background: #494949;
+    --text-price: #EECE1A;
+}
