@@ -19,3 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
 document.querySelector('.sidebar-extend').addEventListener('click', function() {
     document.querySelector('.sidebar').classList.toggle('open');
 });
+
+document.querySelectorAll(".cath-button").forEach(button => {
+    const originalSrc = button.src;
+    const hoverSrc = originalSrc.replace(".png", "-hover.png");
+
+    button.addEventListener("mouseenter", () => button.src = hoverSrc);
+    button.addEventListener("mouseleave", () => button.src = originalSrc);
+});
