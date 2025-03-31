@@ -326,6 +326,7 @@ body {
 }
 
 .second-content-text {
+    font-size: clamp(1rem, 2vw, 1.5rem);
     color: white;
     background-color: var(--content-background);
     width: 100%; /* Le fond prend toute la largeur */
@@ -344,6 +345,7 @@ body {
 }
 
 .price {
+    font-size: 1.2em;
     display: flex;
     align-items: center;
     gap: 7px;
@@ -351,8 +353,21 @@ body {
 }
 
 .price-icon {
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 2rem;
+    height: 2rem;
+    image-rendering: pixelated;
+}
+
+.rate {
+    font-size: 1.2em; /* Augmente la taille du texte en fonction du parent */
+    color: var(--light-gray);
+    display: flex;
+    align-items: center;
+}
+
+.type-icon {
+    width: 2rem;
+    height: 2rem;
     image-rendering: pixelated;
 }
 
@@ -366,6 +381,16 @@ body {
     cursor: pointer;
 }
 
+img {
+    -webkit-user-select: none; /* Pour Safari */
+    -moz-user-select: none;    /* Pour Firefox */
+    -ms-user-select: none;     /* Pour Internet Explorer/Edge */
+    user-select: none;         /* Pour les navigateurs modernes */
+}
+
+
+
+
 :root {
     --invsible: #00000000;
     --abs-black: #000000;
@@ -374,4 +399,5 @@ body {
     --sidebar-selected: #48494A;
     --content-background: #494949;
     --text-price: #EECE1A;
+    --light-gray: #B2B2B2;
 }

@@ -1,0 +1,109 @@
+/* Conteneur général */
+.swipper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: .6rem;
+    height: auto; /* Ajuste la hauteur de la div selon son contenu */
+    margin-bottom: .6rem;
+}
+
+/* Nom du swiper */
+.swipper-name {
+    color: white;
+    font-size: 2rem;
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0.5rem;
+}
+
+/* Base du swiper (avec les flèches et le contenu) */
+.swipper-base {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch; /* Étire les éléments en hauteur */
+    gap: .6rem;
+    height: 350px;
+}
+
+/* Flèche gauche et droite */
+.swipper-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;  /* Prend toute la hauteur disponible du parent */
+    width: 5%;     /* Prend 5% de la largeur de la div, pour se partager avec la flèche droite */
+    image-rendering: pixelated;
+}
+
+/* Contenu du swiper */
+.swipper-content {
+    display: flex;
+    flex-grow: 1;  /* Occupe l'espace restant */
+    justify-content: center;
+    align-items: center;
+    height: 100%;  /* Prend toute la hauteur disponible dans le parent */
+    overflow: hidden; /* Empêche que le contenu dépasse */
+}
+
+/* Contenu du groupe */
+.content-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+    width: 100%;
+    height: 100%; /* Prend toute la hauteur disponible dans le conteneur parent */
+}
+
+/* Structure de chaque élément de contenu */
+.content-stuff {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid var(--abs-black);
+}
+
+/* Hover effect sur le contenu */
+.content-stuff:hover {
+    border-color: white;
+}
+
+/* Image du contenu */
+.content-img {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 4px solid var(--abs-black);
+}
+
+/* Hover effect sur l'image */
+.content-stuff:hover .content-img {
+    border-bottom-color: white;
+}
+
+/* Texte du contenu */
+.content-text {
+    padding: 1rem;
+    background-color: var(--content-background);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    height: 100%; /* Prend toute la hauteur du conteneur parent */
+}
+
+/* Structure sous le texte */
+.content-text .undername {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+}
+
+/* S'assurer que le texte ne déborde pas */
+.content-text .undername > * {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
