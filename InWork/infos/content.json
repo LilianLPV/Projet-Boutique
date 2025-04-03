@@ -8,9 +8,17 @@
             "rate": 4.9,
             "team": "Oreville Studios",
             "img": ["image1","image2","image3","image4","image5","image6","image7"],
-            "video": "https://www.youtube.com/watch?v=VDk8niB2Obw",
             "description": "The Animation Pack You Didn't Know You Needed: Bring your world to life with new animations particles textures and more! - Player Animations (1st & 3rd Person) - New & Improved Mob Animations - 3D Item Models - Custom Armour - A Complete & Faithful Texture Overhaul - Compatible with Vanilla textures or your own texture packs - So much more!"
+        },
+        "fur_craft_add_on" :{
+            "title": "Fur Craft Add-On",
+            "type": ["Add-on"],
+            "video": "https://www.youtube.com/watch?v=PNSbDJbkuOk",
+            "price": 990,
+            "rate": 4.6,
+            "team": "Float Studios",
+            "img": ["image1","image2","image3","image4","image5","image6","image7", "image8", "image9", "image10"],
+            "description": "Ever wanted to become your favourite furry Minecraft alpha animal? Become a Wolf, Cat, Fox and more ! + Craft 30 animal Armor sets and morphs! + Tame alpha animals, shear their fur, and collect claws. + Morph into animals and roleplay with unique actions! + Plushies, beds, blocks!"
         }
-
     }
 }
