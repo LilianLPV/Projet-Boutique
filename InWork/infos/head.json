@@ -1,0 +1,9 @@
+{
+    "main-map": {"name": "actions_and_stuff"},
+    "seconds-maps": [
+        {"name": "fur_craft_addon"},
+        {"name": "better_on_bedrock"},
+        {"name": "farming"},
+        {"name": "a_minecraft_movie_hero_pack"}
+    ]
+}
