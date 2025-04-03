@@ -1,15 +1,20 @@
 const express = require('express');
-const app = express();
+const path = require('path');
+const cors = require('cors');
 const routes = require('./routes/routes');
 
-const port = 3000; 
-const cors = require("cors");
-app.use(cors({origin: '*'}));
+const app = express();
+const port = 3000;
 
-const StoreRoutes = require("./routes/routes")
-app.use('/', routes);
+app.use(cors({ origin: '*' }));
 
-app.use(StoreRoutes);
+// Servir les fichiers statiques du FrontEnd (CSS, JS, images...)
+app.use(express.static(path.join(__dirname, '../FrontEnd')));
 
-app.listen(port, () => console.log(`Server listening on port ${port} http://localhost:3000`))
+// Route pour servir index.html
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../FrontEnd/template/main.html'));
+});
 
+
+app.listen(port, () => console.log(`Server listening on http://localhost:${port}`));
