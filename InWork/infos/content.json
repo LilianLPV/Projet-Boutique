@@ -3,11 +3,34 @@
         "actions_and_stuff" :{
             "title": "Actions and Stuff",
             "type": ["texture", "skin"],
+            "video": "https://www.youtube.com/watch?v=VDk8niB2Obw",
             "price": 1690,
             "rate": 4.9,
             "team": "Oreville Studios",
-            "img": ["image1","image2"]
-            
+            "img": ["image1","image2","image3","image4","image5","image6","image7"],
+            "description": "The Animation Pack You Didn't Know You Needed: Bring your world to life with new animations particles textures and more! - Player Animations (1st & 3rd Person) - New & Improved Mob Animations - 3D Item Models - Custom Armour - A Complete & Faithful Texture Overhaul - Compatible with Vanilla textures or your own texture packs - So much more!"
+        },
+        "a_minecraft_movie_dlc" :{
+            "title": "A Minecraft Movie DLC",
+            "type": ["world"],
+            "video": "https://www.youtube.com/watch?v=QSjaND1yJmU",
+            "price": 0,
+            "rate": 4.7,
+            "team": "Spark Universe",
+            "img": ["image1","image2","image3","image4","image5"],
+            "description": "Adventure deeper into A MINECRAFT MOVIE! Compete in elytra races, survive the night, and sneak into a woodland mansion in this free DLC."
+        },
+        "better_on_bedrock" :{
+            "title": "Better on Bedrock",
+            "type": ["world"],
+            "video": "https://www.youtube.com/watch?v=k8FFEKdFT5o",
+            "price": 990,
+            "rate": 4.7,
+            "team": "Poggy",
+            "img": ["image1","image2","image3","image4","image5"],
+            "description": "Explore a new world of Minecraft with Better on Bedrock, anew Dynamic World! There is tons to explore!\n\n-Custom trees,biomes and structure generation\n-100+ New blocks and items\n-20+ New mobs\n4-40+ New Foods & Quests\n-7 New Bosses\n-Enjoy custom music and ambiencie\n\nThis item uses random start areas for any new world.Endless possibilties!"
         }
+        
+
     }
 }
