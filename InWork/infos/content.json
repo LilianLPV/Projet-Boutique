@@ -6,7 +6,10 @@
             "price": 1690,
             "rate": 4.9,
             "team": "Oreville Studios",
-            "img": ["image1","image2"]
+            "img": ["image1","image2","image3","image4","image5","image6","image7"],
+            "video": "https://www.youtube.com/watch?v=VDk8niB2Obw",
+            "description": "The Animation Pack You Didn't Know You Needed: Bring your world to life with new animations particles textures and more! - Player Animations (1st & 3rd Person) - New & Improved Mob Animations - 3D Item Models - Custom Armour - A Complete & Faithful Texture Overhaul - Compatible with Vanilla textures or your own texture packs - So much more!"
         }
+
     }
 }
