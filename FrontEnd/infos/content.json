@@ -1,0 +1,325 @@
+{
+    "content": {
+        "actions_and_stuff": {
+            "title": "Actions and Stuff",
+            "type": [
+                "texture",
+                "skin"
+            ],
+            "price": 1690,
+            "rate": 4.9,
+            "team": "Oreville Studios",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5",
+                "image6",
+                "image7"
+            ],
+            "description": "The Animation Pack You Didn't Know You Needed: Bring your world to life with new animations particles textures and more!\n\n - Player Animations (1st & 3rd Person) - New & Improved Mob Animations\n - 3D Item Models\n - Custom \nArmour - A Complete & Faithful Texture Overhaul\n - Compatible with Vanilla textures or your own texture packs\n - So much more!\n\n"
+        },
+        "fur_craft_add_on": {
+            "title": "Fur Craft Add-On",
+            "type": [
+                "add-on"
+            ],
+            "video": "https://www.youtube.com/watch?v=PNSbDJbkuOk",
+            "price": 990,
+            "rate": 4.6,
+            "team": "Float Studios",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5",
+                "image6",
+                "image7",
+                "image8",
+                "image9",
+                "image10"
+            ],
+            "description": "Ever wanted to become your favourite furry Minecraft alpha animal? Become a Wolf, Cat, Fox and more !\n + Craft 30 animal Armor sets and morphs!\n + Tame alpha animals, shear their fur, and collect claws.\n + Morph into animals and roleplay with unique actions! \n+ Plushies, beds, blocks!\n\n"
+        },
+        "a_minecraft_movie_dlc": {
+            "title": "A Minecraft Movie DLC",
+            "type": [
+                "world"
+            ],
+            "video": "https://www.youtube.com/watch?v=QSjaND1yJmU",
+            "price": 0,
+            "rate": 4.7,
+            "team": "Spark Universe",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5"
+            ],
+            "description": "Adventure deeper into A MINECRAFT MOVIE! Compete in elytra races, survive the night, and sneak into a woodland mansion in this free DLC."
+        },
+        "better_on_bedrock": {
+            "title": "Better on Bedrock",
+            "type": [
+                "world"
+            ],
+            "video": "https://www.youtube.com/watch?v=k8FFEKdFT5o",
+            "price": 990,
+            "rate": 4.7,
+            "team": "Poggy",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5",
+                "image6"
+            ],
+            "description": "Explore a new world of Minecraft with Better on Bedrock, a new Dynamic World! There is tons to explore! \n\n - Custom trees, biomes and structure generation\n 100+ New blocks and items\n - 20+ New Mobs \n - 40+ New Foods & Quests\n -7 New Bosses\n - Enjoy custom music and ambience\n\n This item uses random start areas for any new world. Endless possibilities!\n\n"
+        },
+        "farming": {
+            "title": "Farming",
+            "type": [
+                "add-on"
+            ],
+            "video": "https://www.youtube.com/watch?v=7edpmlRTu4s&ab_channel=Podcrash",
+            "price": 1510,
+            "rate": 4.8,
+            "team": "Podcrash",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5",
+                "image6",
+                "image7",
+                "image8",
+                "image9",
+                "image10"
+            ],
+            "description": "Add lots of new food types to any world of your choice with our Farming Add-On with over 200+ new variations of crops, trees, food, drink, and mobs in your world. Explore your world to find new plants like chili, lettuce, and corn, or find and breed new animals like turkeys, ducks, and bison. \n\n - +9 new mobs\n - +40 new crops\n - +226 new consumables\n + Made by Podcrash\n\n"
+        },
+        "a_minecraft_movie_hero_pack": {
+            "title": "A Minecraft Movie Hero Pack",
+            "type": [
+                "skin"
+            ],
+            "video": "",
+            "price": 0,
+            "rate": 4.7,
+            "team": "Spark Universe",
+            "img": [],
+            "description": "Become a hero from A MINECRAFT MOVIE with this free skin pack. Get it at Minecraft Marketplace!\n\n"
+        },
+        "naturalist_add_on_3_0": {
+            "title": "Naturalist Add-On 3.0",
+            "type": [
+                "add-on"
+            ],
+            "video": "https://www.youtube.com/watch?v=tZco2VydhJ8&ab_channel=StarfishStudios",
+            "price": 1340,
+            "rate": 4.8,
+            "team": "Starfish Studios",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5",
+                "image6",
+                "image7",
+                "image8",
+                "image9",
+                "image10"
+            ],
+            "description": "The Naturalist Animals Add-On works in ANY WORLD! Find NEW ANIMALS in forests, deserts, oceans, and more in this UPGRADED survival experience.\n\n NOW WITH 130+ ANIMALS and TYPES\n Naturally spawning in every BIOME\n TAME, RIDE, and INTERACT with them\n Single or Multiplayer\n\n [!] USABLE IN ANY WORLD!\n Official Bedrock Edition of the Naturalist Java Mod\n\n"
+        },
+        "realismcraft®_1_6_1": {
+            "title": "RealismCraft® 1.6.1",
+            "type": [
+                "mash-up"
+            ],
+            "video": "https://www.youtube.com/watch?v=ovwKEI_KWSs&ab_channel=SparkUniverse",
+            "price": 1690,
+            "rate": 4.6,
+            "team": "Spark Universe",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5",
+                "image6",
+                "image7",
+                "image8",
+                "image9"
+            ],
+            "description": "Rediscover the beauty of Minecraft with RealismCraft®: Custom world generation, shader-like VFX, dynamic lights and more!\n + Custom realistic trees, plants and structure generation\n+ Overhauled textures, animations and sound\n+ VFX like god rays, northern lights, fireflies and waving foliage\n+ Realistic mobs with biome variants\n\n WATCH THE REALISMCRAFT® TRAILER!\n\n "
+        },
+        "monster_attack_:_nian": {
+            "title": "Monster Attack: Nian",
+            "type": [
+                "world"
+            ],
+            "video": "https://www.youtube.com/watch?v=W-Fs_yc27ag&ab_channel=NextStudio",
+            "price": 0,
+            "rate": 4.5,
+            "team": "Next Studio",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5"
+            ],
+            "description": "The Lunar New Year is coming, but the town is being attacked by monster Nian! Talk with villagers and find the way to defeating this beast!\n Collect special weapons and work your way up to defeat this monster! Once the beast is defeated, ride them to victory.\n\n + Custom models, creatures, items\n + Single player\n + Unique stories\n + By Next Studio\n\n "
+        },
+        "minecraft_texture_update_beta": {
+            "title": "Minecraft Texture Update Beta",
+            "type": [
+                "texture"
+            ],
+            "video": "",
+            "price": 0,
+            "rate": 4.5,
+            "team": "Minecraft",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5"
+            ],
+            "description": "The extraordinary Minecraft Texture Update has been on the Java Edition in beta for quite a while and now It's finally on Bedrock! We're renovating the old textures of Minecraft and polishing them up for a new beginning. Don't panic! This won't completely overhaul the look of Minecraft - these new textures just give it a much-needed update!\n\n"
+        },
+        "nerf_world": {
+            "title": "Nerf World",
+            "type": [
+                "skin",
+                "world"
+            ],
+            "video": "https://www.youtube.com/watch?v=VxkMSkDF8vY&ab_channel=Minecraft",
+            "price": 0,
+            "rate": 4.7,
+            "team": "Minecraft",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5",
+                "image6",
+                "image7",
+                "image8"
+            ],
+            "description": "Gear up for an epic Nerf x Minecraft adventure! Dive into a world of foam-flinging fun as you blast your way through hordes of Minecraft mobs, and unlock dimension-themed arenas. Jump into the blocky chaos and charge towards victory, it's a Nerf battle like never before! \n\n"
+        },
+        "mowzie's_mobs_add_on_1.1": {
+            "title": "Mowzie's Mobs Add-On 1.1",
+            "type": [
+                "add-on"
+            ],
+            "video": "https://www.youtube.com/watch?v=Q1VMzRYIgmM",
+            "price": 1690,
+            "rate": 4.8,
+            "team": "Honeyfrost",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5",
+                "image6",
+                "image7",
+                "image8",
+                "image9",
+                "image10"
+            ],
+            "description": "Mowzie's Mobs adds a variety of fictional creatures to Minecraft, priding itself in unique AI, rich atmosphere, and fluid animations. Prove your might against new bosses and enemies and claim their magical abilities as your own.\n\n+ Includes 12 Unique Mobs with new gameplay mechanics, structures, items, powers and more!\n+ The official bedrock edition of Mowzie's Mobs\n\n"
+        },
+        "lucky_block_evolved_1.1_add_on": {
+            "title": "Lucky Block Evolved 1.1 Add-On",
+            "type": [
+                "add-on"
+            ],
+            "video": "https://www.youtube.com/watch?v=w_6UpeN1GTw",
+            "price": 990,
+            "rate": 4.1,
+            "team": "57Digital",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5",
+                "image6",
+                "image7",
+                "image8",
+                "image9",
+                "image10"
+            ],
+            "description": "Every Lucky Block you break could hold something incredible inside! Go mining, smash Lucky Blocks, and uncover amazing surprise loot! Each Lucky Crystal brings you one step closer to supercharging your tools, weapons, and armor.\n\nHUGE UPDATE: Now with over 30+ structures, traps, and custom spawns to keep you on your toes! Good Luck!\n\nTHIS ADD-ON WORKS IN YOUR OWN WORLDs\n\n"
+        },
+        "anime_legends": {
+            "title": "Anime Legends",
+            "type": [
+                "skin"
+            ],
+            "video": "",
+            "price": 3420,
+            "rate": 4.4,
+            "team": "Tristan Productions",
+            "img": [],
+            "description": "Roleplay as an anime legend in your next adventure! These exclusive anime characters will impress everyone\n\n"
+        },
+        "star_block": {
+            "title": "Star Block",
+            "type": [
+                "world"
+            ],
+            "video": "",
+            "price": 3420,
+            "rate": 4.1,
+            "team": "The World Foundry",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5"
+            ],
+            "description": "Every Lucky Block you break could hold something incredible inside! Go mining, smash Lucky Blocks, and uncover amazing surprise loot! Each Lucky Crystal brings you one step closer to supercharging your tools, weapons, and armor.\n\nHUGE UPDATE: Now with over 30+ structures, traps, and custom spawns to keep you on your toes! Good Luck!\n\nTHIS ADD-ON WORKS IN YOUR OWN WORLDs\n\n"
+        },
+        "100_days_civilization": {
+            "title": "100 Days Civilization",
+            "type": [
+                "skin",
+                "world"
+            ],
+            "video": "https://www.youtube.com/watch?v=bmg2b0Z50Ro",
+            "price": 2380,
+            "rate": 4.5,
+            "team": "MobBlock",
+            "img": [
+                "image1",
+                "image2",
+                "image3",
+                "image4",
+                "image5"
+            ],
+            "description": "Can you survive 100 days in this vast open world with new animals and civilizations. Trade or complete quests for rewards in different cities. Visit ruins and collect lore books. Gather materials with your friends to build your own base and economy.\n\n - Boss Fights\n - Epic Dungeons\n - Custom Mobs and Animals\n - Collect Resources and Build up a Civilization\n\n"
+        },
+            "img": [
+            "image1",
+            "image2",
+            "image3",
+            "image4",
+            "image5"
+        ],
+        "description": "Explore a new world of Minecraft with Better on Bedrock, anew Dynamic World! There is tons to explore!\n\n-Custom trees,biomes and structure generation\n-100+ New blocks and items\n-20+ New mobs\n4-40+ New Foods & Quests\n-7 New Bosses\n-Enjoy custom music and ambiencie\n\nThis item uses random start areas for any new world.Endless possibilties!"
+    }
+}
