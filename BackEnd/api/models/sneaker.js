@@ -5,9 +5,8 @@ class Sneaker {
     static async getById(id) {
         try {
             const query = `
-            SELECT * FROM produits AS p
-            JOIN categories AS cp ON p.ID_Categories = cp.ID_Categories    
-            WHERE p.ID_Produits = ?`;
+            SELECT * FROM products AS p 
+            WHERE p.product_id = ?`;
             const [results] = await pool.query(query, [id]);
             return results[0];
         } catch (error) {
