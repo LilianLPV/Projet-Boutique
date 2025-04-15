@@ -138,7 +138,7 @@
             ],
             "description": "The Naturalist Animals Add-On works in ANY WORLD! Find NEW ANIMALS in forests, deserts, oceans, and more in this UPGRADED survival experience.\n\n NOW WITH 130+ ANIMALS and TYPES\n Naturally spawning in every BIOME\n TAME, RIDE, and INTERACT with them\n Single or Multiplayer\n\n [!] USABLE IN ANY WORLD!\n Official Bedrock Edition of the Naturalist Java Mod\n\n"
         },
-        "realismcraft®_1_6_1": {
+        "realismcraft_1_6_1": {
             "title": "RealismCraft® 1.6.1",
             "type": [
                 "mash-up"
@@ -160,7 +160,7 @@
             ],
             "description": "Rediscover the beauty of Minecraft with RealismCraft®: Custom world generation, shader-like VFX, dynamic lights and more!\n + Custom realistic trees, plants and structure generation\n+ Overhauled textures, animations and sound\n+ VFX like god rays, northern lights, fireflies and waving foliage\n+ Realistic mobs with biome variants\n\n WATCH THE REALISMCRAFT® TRAILER!\n\n "
         },
-        "monster_attack_:_nian": {
+        "monster_attack_nian": {
             "title": "Monster Attack: Nian",
             "type": [
                 "world"
@@ -218,7 +218,7 @@
             ],
             "description": "Gear up for an epic Nerf x Minecraft adventure! Dive into a world of foam-flinging fun as you blast your way through hordes of Minecraft mobs, and unlock dimension-themed arenas. Jump into the blocky chaos and charge towards victory, it's a Nerf battle like never before! \n\n"
         },
-        "mowzie's_mobs_add_on_1.1": {
+        "mowzies_mobs_add_on_1_1": {
             "title": "Mowzie's Mobs Add-On 1.1",
             "type": [
                 "add-on"
@@ -241,7 +241,7 @@
             ],
             "description": "Mowzie's Mobs adds a variety of fictional creatures to Minecraft, priding itself in unique AI, rich atmosphere, and fluid animations. Prove your might against new bosses and enemies and claim their magical abilities as your own.\n\n+ Includes 12 Unique Mobs with new gameplay mechanics, structures, items, powers and more!\n+ The official bedrock edition of Mowzie's Mobs\n\n"
         },
-        "lucky_block_evolved_1.1_add_on": {
+        "lucky_block_evolved_1_1_add_on": {
             "title": "Lucky Block Evolved 1.1 Add-On",
             "type": [
                 "add-on"
@@ -263,18 +263,6 @@
                 "image10"
             ],
             "description": "Every Lucky Block you break could hold something incredible inside! Go mining, smash Lucky Blocks, and uncover amazing surprise loot! Each Lucky Crystal brings you one step closer to supercharging your tools, weapons, and armor.\n\nHUGE UPDATE: Now with over 30+ structures, traps, and custom spawns to keep you on your toes! Good Luck!\n\nTHIS ADD-ON WORKS IN YOUR OWN WORLDs\n\n"
-        },
-        "anime_legends": {
-            "title": "Anime Legends",
-            "type": [
-                "skin"
-            ],
-            "video": "",
-            "price": 3420,
-            "rate": 4.4,
-            "team": "Tristan Productions",
-            "img": [],
-            "description": "Roleplay as an anime legend in your next adventure! These exclusive anime characters will impress everyone\n\n"
         },
         "star_block": {
             "title": "Star Block",
